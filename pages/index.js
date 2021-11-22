@@ -17,15 +17,23 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.logo}>
-        <Image 
-              src={logo}
-        />
-        <p className={styles.description}>
-          THE DISTRIBUTED<br />BALANCED<br />GRID
-        </p>
-        <br className={styles.clear} />
-        <input placeholder="email@example.com"></input> <button>Join to our waiting list</button>
+      <div className={styles.fix}>
+        <div className={styles.logo}>
+          <Image 
+                src={logo}
+          />
+          <p className={styles.description}>
+            THE DISTRIBUTED<br />BALANCED<br />GRID
+          </p>
+        </div>
+        <div className={styles.elev}>
+          <h2><span className={styles.red}>INVEST</span> IN THE ENERGY TRANSITION</h2>
+          <p>Get a <span className={styles.red}>5%</span> anual return + Market Based Premium</p>
+          <p>Run-time	Up to <span className={styles.red}>8</span> years</p>
+          <p>Start from €1.000</p>
+
+          <input placeholder="email@example.com"></input> <button>Join to our waiting list</button>
+        </div>
       </div>
 
       <main className={styles.main}>

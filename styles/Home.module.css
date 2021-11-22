@@ -1,15 +1,25 @@
 .clear { clear: both; }
 
-.logo {
+
+.fix {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  flex-direction: row;
   position: fixed;
-  max-width: 400px;
   margin-top: calc(-100vh + 100px);
   padding-top: 10vh !important;
   z-index: -1;
+  width: 100%;
+}
+.logo {
+  max-width: 400px;
   padding: 0 2rem;
+}
+
+.elev {
+  margin-left: auto;
+  padding: 0 2rem;
+  text-align: right;
 }
 
 .main {
