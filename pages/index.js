@@ -73,14 +73,14 @@ export default function Home() {
               <p>
                 Electric Vehicles (EVs) are key player on the clean energy transition
                 but they also represent a danger for the environment if we
-                don't take care of the waste after their useful life.
+                don&lsquo;t take care of the waste after their useful life.
               </p>
               <p>
                 We give <span className={styles.red}>obsolete EVs batteries</span> a second purpose. 
                 By assembling them together and
                 connecting them to the grid we <span className={styles.red}>contribute to balancing </span> 
                 the network by 
-                taking energy from the grid when the sun shines and there's no one using 
+                taking energy from the grid when the sun shines and there&lsquo;s no one using 
                 that power, then later we can feed that energy back in when needed.
               </p>
             </div>
