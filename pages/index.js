@@ -11,7 +11,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Peak Power</title>
-        <meta name="description" content="The distributed balanced grid" />
+        <meta name="description" content="The distributed energy balancer" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
