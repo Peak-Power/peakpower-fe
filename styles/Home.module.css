@@ -39,6 +39,7 @@
   min-width: 100;
   align-self: stretch;
   padding: 1rem 2rem;
+  min-height: calc(100vh - 100px);
 }
 
 .blackStripe, .footer {
@@ -50,6 +51,7 @@
   min-width: 100;
   align-self: stretch;
   padding: 1rem 2rem;
+  min-height: 100px;
 }
 
 .red {
