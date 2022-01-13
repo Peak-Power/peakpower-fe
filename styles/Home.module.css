@@ -38,7 +38,6 @@
   flex-direction: row;
   min-width: 100;
   align-self: stretch;
-  padding: 1rem 2rem;
   min-height: calc(100vh - 100px);
 }
 
@@ -67,9 +66,15 @@
 
 .product .col {
   min-width: 300px;
+  min-height: 235px;
+  height: 100%;
+  width: 70%;
+  position: relative;
 }
 .product .text {
-  max-width: 450px;
+  max-width: 420px;
+  min-width: 30%;
+  padding: 1rem;
 }
 
 .product .col p {
