@@ -12,7 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Peak Power</title>
-        <meta name="description" content="The distributed energy balancer" />
+        <meta name="description" content="The distributed balancing system" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,6 +21,7 @@ export default function Home() {
           <Image 
                 src={logo}
                 priority={true}
+                placeholder='blur'
           />
           <p className={styles.description}>
             THE DISTRIBUTED<br />BALANCING<br />SYSTEM
@@ -71,10 +72,11 @@ export default function Home() {
             
             <div className={styles.col}>
               <Image 
-                    src={container}
-                    layout='fill'
-                    objectFit='contain'
-                    objectPosition='right'
+                  src={container}
+                  layout='fill'
+                  objectFit='contain'
+                  objectPosition='right'
+                  placeholder='blur'
               />
             </div>
 
@@ -97,6 +99,7 @@ export default function Home() {
                   layout='fill'
                   objectFit='contain'
                   objectPosition='left'
+                  placeholder='blur'
             />
             </div>
             <div className={styles.col, styles.text}>
@@ -138,6 +141,7 @@ export default function Home() {
                   layout='fill'
                   objectFit='contain'
                   objectPosition='right'
+                  placeholder='blur'
             />
             </div>
           </div>
