@@ -27,6 +27,18 @@ export default function Home() {
             THE DISTRIBUTED<br />BALANCING<br />SYSTEM
           </p>
         </div>
+        <div className={styles.elev}>
+          <h2><span className={styles.red}>INVEST</span> IN THE ENERGY TRANSITION</h2>
+          <p>Get a <span className={styles.red}>5%</span> anual return <br />
+          + Market Based Premium</p>
+          <p>Run-time	Up to <span className={styles.red}>8</span> years<br />
+          Start from €1.000</p>
+          <form name="contact" netlify>
+              <input placeholder="you@somewhere.com" type="email" name="email"></input> 
+              &nbsp;
+              <button type="submit">Join to the waiting list</button>
+            </form>
+        </div>
       </div>
 
       <main className={styles.main}>
@@ -127,16 +139,32 @@ export default function Home() {
         <div className={styles.whiteStripe}>
           <div className={styles.product}>
           <div className={styles.col, styles.text}>
+            <h2>
+            BECOME ONE OF THE <span className={styles.red}>DISTRIBUTED</span> OWNERS
+            </h2>
+            
             <p>
-            With our software solution we control and 
-            steer a <span className={styles.red}>smart network </span> 
-            of distributed storage assets. 
-            They automatically react to <span className={styles.red}>grid unbalances</span>, 
-            store <span className={styles.red}>excess energy</span> from 
-            renewable energy sources 
-            and feed energy back into the grid when most needed. This helps the energy transition and 
-            optimises asset economics.
+              With our software solution we control and 
+              steer a <span className={styles.red}>smart network </span> 
+              of distributed storage assets. 
+              They automatically react to <span className={styles.red}>grid unbalances</span>, 
+              store <span className={styles.red}>excess energy</span> from 
+              renewable energy sources 
+              and feed energy back into the grid when most needed. This helps the energy transition and 
+              optimises asset economics.
             </p>
+            <p>
+              To make this transition possible we need you. 
+              Our <span className={styles.red}>2MW </span> 
+              batteries will be tokenized enabling anyone to take part 
+              of the transition.
+            </p>
+
+            <form name="contact" netlify>
+              <input placeholder="you@somewhere.com" type="email" name="email"></input> 
+              &nbsp;
+              <button type="submit">Join to the waiting list</button>
+            </form>
           </div>
           <div className={styles.col}>
             <Image 
