@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/imgs/logo.png'
 import system from '../public/imgs/system.jpg'
-import container from '../public/imgs/peakpower_onsite.png'
+import container from '../public/imgs/peakpower_onsite_l.png'
 import secondlife from '../public/imgs/ev.jpg'
 
 
@@ -21,7 +21,7 @@ export default function Home() {
           <Image 
                 src={logo}
                 priority={true}
-                placeholder='blur'
+                loading='eager'
           />
           <p className={styles.description}>
             THE DISTRIBUTED<br />BALANCING<br />SYSTEM
@@ -62,9 +62,9 @@ export default function Home() {
                 needs to be balanced to fully replace carbon based energy plants.
               </p>
               <p>
-                With advances of energy transition it is harder, costly and 
-                more challenging for grid providers to maintain a 
-                <span className={styles.red}> balanced grid</span>.
+                With the energy transition advancing, it becomes more difficult, 
+                more costly and more challenging to maintain a
+                <span className={styles.red}> balanced electricity grid</span>.
               </p>
 
 
@@ -128,11 +128,14 @@ export default function Home() {
           <div className={styles.product}>
           <div className={styles.col, styles.text}>
             <p>
-              With our software solution
-              we <span className={styles.red}>control a network</span> of distributed storage assets
-              reacting to the <span className={styles.red}>grid unbalances</span> and 
-              storing <span className={styles.red}>excess energy</span> from 
-              <span className={styles.red}> renewable energy</span> sources to feed it back into the grid when most needed
+            With our software solution we control and 
+            steer a <span className={styles.red}>smart network </span> 
+            of distributed storage assets. 
+            They automatically react to <span className={styles.red}>grid unbalances</span>, 
+            store <span className={styles.red}>excess energy</span> from 
+            renewable energy sources 
+            and feed energy back into the grid when most needed. This helps the energy transition and 
+            optimises asset economics.
             </p>
           </div>
           <div className={styles.col}>
