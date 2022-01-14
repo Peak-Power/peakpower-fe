@@ -33,11 +33,12 @@ export default function Home() {
           + Market Based Premium</p>
           <p>Run-time	Up to <span className={styles.red}>8</span> years<br />
           Start from €1.000</p>
-          <form name="contact" netlify>
+          <form name="contact" method="post">
+              <input type="hidden" name="form-name" value="contact" />
               <input placeholder="you@somewhere.com" type="email" name="email"></input> 
               &nbsp;
               <button type="submit">Join to the waiting list</button>
-            </form>
+          </form>
         </div>
       </div>
 
@@ -160,7 +161,8 @@ export default function Home() {
               of the transition.
             </p>
 
-            <form name="contact" netlify>
+            <form name="contact" method="post">
+              <input type="hidden" name="form-name" value="contact" />
               <input placeholder="you@somewhere.com" type="email" name="email"></input> 
               &nbsp;
               <button type="submit">Join to the waiting list</button>
