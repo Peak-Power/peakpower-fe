@@ -27,19 +27,6 @@ export default function Home() {
             THE DISTRIBUTED<br />BALANCING<br />SYSTEM
           </p>
         </div>
-        <div className={styles.elev}>
-          <h2><span className={styles.red}>INVEST</span> IN THE ENERGY TRANSITION</h2>
-          <p>Get a <span className={styles.red}>5%</span> anual return <br />
-          + Market Based Premium</p>
-          <p>Run-time	Up to <span className={styles.red}>8</span> years<br />
-          Start from €1.000</p>
-          <form name="contact" method="post">
-              <input type="hidden" name="form-name" value="contact" />
-              <input placeholder="you@somewhere.com" type="email" name="email"></input> 
-              &nbsp;
-              <button type="submit">Join to the waiting list</button>
-          </form>
-        </div>
       </div>
 
       <main className={styles.main}>
@@ -155,13 +142,13 @@ export default function Home() {
               optimises asset economics.
             </p>
             <p>
-              To make this transition possible we need you. 
+              Are you a battery operator or want to become one?
               Our <span className={styles.red}>2MW </span> 
               batteries will be tokenized enabling anyone to take part 
               of the transition.
             </p>
 
-            <form name="contact" method="post">
+            <form name="contact" method="post" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <input placeholder="you@somewhere.com" type="email" name="email"></input> 
               &nbsp;
