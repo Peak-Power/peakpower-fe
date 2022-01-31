@@ -178,7 +178,6 @@ export default function Home() {
           </div>
           <div className={`${styles.backers} ${styles.footer}`}>
             <div className={styles.col}></div>
-            <div className={styles.col}></div>
             <div className={styles.col}>
             <Image
                     src={sibb}
