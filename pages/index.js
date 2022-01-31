@@ -172,7 +172,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div class={`${styles.blackStripe} ${styles.footer}`}>
+        <div className={`${styles.blackStripe} ${styles.footer}`}>
           <div>
           <p>Questions? Write us: &nbsp;<a href="mailto:info@peakpower.io">info@peakpower.io</a></p>
           </div>
