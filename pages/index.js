@@ -5,6 +5,8 @@ import logo from '../public/imgs/logo.png'
 import system from '../public/imgs/system.jpg'
 import container from '../public/imgs/peakpower_onsite_l.png'
 import secondlife from '../public/imgs/ev.jpg'
+import sibb from '../public/imgs/backers/sibb.png'
+import antler from '../public/imgs/backers/antler.svg'
 
 
 export default function Home() {
@@ -167,12 +169,31 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.blackStripe, styles.footer}>
-          Questions? Write us: &nbsp;<a href="mailto:info@peakpower.io">info@peakpower.io</a>
+        <div class={`${styles.blackStripe} ${styles.footer}`}>
+          <div>
+          <p>Questions? Write us: &nbsp;<a href="mailto:info@peakpower.io">info@peakpower.io</a></p>
+          </div>
+          <div className={`${styles.backers} ${styles.footer}`}>
+            <div className={styles.col}></div>
+            <div className={styles.col}></div>
+            <div className={styles.col}>
+            <Image
+                    src={sibb}
+                    layout='fill'
+                    objectFit='contain'
+              />
+            </div>
+            <div className={styles.col}>
+            <Image
+                    src={antler}
+                    layout='fill'
+                    objectFit='contain'
+              />
+            </div>
+
+          </div>
         </div>
-
       </main>
-
     </div>
   )
 }

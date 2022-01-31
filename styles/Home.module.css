@@ -1,9 +1,7 @@
 .clear { clear: both; }
 
-
 .fix {
   display: flex;
-  /* justify-content: flex-start; */
   flex-direction: row;
   position: fixed;
   margin-top: calc(-100vh + 100px);
@@ -41,7 +39,7 @@
   min-height: calc(100vh - 100px);
 }
 
-.blackStripe, .footer {
+.blackStripe {
   background-color: #111;
   color: white;
   flex: 0 1;
@@ -63,13 +61,14 @@
   justify-content: center;
   align-items: center;
 }
-
 .product .col {
-  min-width: 300px;
   min-height: 235px;
-  height: 100%;
+  min-width: 300px;
+}
+.col {
   width: 70%;
   position: relative;
+  height: 100%;
 }
 .product .text {
   max-width: 420px;
@@ -84,9 +83,12 @@
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
   justify-content: center;
   align-items: center;
+}
+
+.backers {
+  height: 30px;
 }
 
 .description {
