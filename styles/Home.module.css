@@ -88,6 +88,9 @@
 }
 
 .backers {
+  height: 45px;
+}
+.backers .smimg {
   height: 30px;
 }
 

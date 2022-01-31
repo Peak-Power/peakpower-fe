@@ -6,6 +6,9 @@ import system from '../public/imgs/system.jpg'
 import container from '../public/imgs/peakpower_onsite_l.png'
 import secondlife from '../public/imgs/ev.jpg'
 import sibb from '../public/imgs/backers/sibb.png'
+import ber from '../public/imgs/backers/ber.png'
+import eu from '../public/imgs/backers/eu.png'
+import esf from '../public/imgs/backers/esf.png'
 import antler from '../public/imgs/backers/antler.svg'
 
 
@@ -184,6 +187,30 @@ export default function Home() {
               />
             </div>
             <div className={styles.col}>
+              <a href=''></a>
+            <Image
+                    src={eu}
+                    layout='fill'
+                    objectFit='contain'
+              />
+            </div>
+            <div className={styles.col}>
+              <a href=''></a>
+            <Image
+                    src={esf}
+                    layout='fill'
+                    objectFit='contain'
+              />
+            </div>
+            <div className={styles.col}>
+              <a href=''></a>
+            <Image
+                    src={ber}
+                    layout='fill'
+                    objectFit='contain'
+              />
+            </div>
+            <div className={`${styles.col} ${styles.smimg}`}>
             <Image
                     src={antler}
                     layout='fill'
