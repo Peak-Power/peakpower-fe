@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/imgs/logo_d.png'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
       <main>
         <div className={styles.blackStripe}>
             <div style={{textAlign: 'left', display: 'inline', width: '80px', position: 'relative'}}>
-                <a href="/">
+            <Link href="/" passHref><a>
                   <Image
                           src={logo}
                           priority={true}
@@ -21,7 +22,7 @@ export default function Home() {
                           layout='fill'
                           objectFit='contain'
                   />
-                </a>
+            </a></Link>
             </div>
         </div>
         <div style={{padding:'20px'}}
@@ -52,7 +53,7 @@ export default function Home() {
 
             <p>
               Contact <br/>
-              E-mail: <a href="mailto:info@peakpower.io">info@peakpower.io</a> 
+              E-mail: <Link href="mailto:info@peakpower.io">info@peakpower.io</Link> 
             </p>
           </div>
         </div>

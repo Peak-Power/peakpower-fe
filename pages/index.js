@@ -10,6 +10,8 @@ import ber from '../public/imgs/backers/ber.png'
 import eu from '../public/imgs/backers/eu.png'
 import esf from '../public/imgs/backers/esf.png'
 import antler from '../public/imgs/backers/antler.svg'
+import Link from 'next/link'
+
 
 
 export default function Home() {
@@ -136,7 +138,7 @@ export default function Home() {
         
         <div className={styles.blackStripe}>
           <h2>
-            LET'S SHAPE THE <span className={styles.red}>ENERGY TRANSITION</span>!
+            LET&apos;S SHAPE THE <span className={styles.red}>ENERGY TRANSITION</span>!
           </h2>
         </div>
 
@@ -169,7 +171,7 @@ export default function Home() {
               <span className={styles.red}> static</span> to 
               <span className={styles.red}> flexible</span>.
               </p>
-              <p>Connect with us: <a href="mailto:info@peakpower.io">info@peakpower.io</a></p>
+              <p>Connect with us: <Link href="mailto:info@peakpower.io"><a>info@peakpower.io</a></Link></p>
           </div>
           <div className={styles.col}>
             <Image 
@@ -187,7 +189,7 @@ export default function Home() {
           <div>
           <p>
             <small>
-              <a href='/imprint'>imprint</a> | <a href='privacy-policy'>privacy policy</a>
+              <Link href='/imprint'>imprint</Link> | <Link href='privacy-policy'>privacy policy</Link>
             </small>
           </p>
           </div>
@@ -201,7 +203,6 @@ export default function Home() {
               />
             </div>
             <div className={styles.col}>
-              <a href=''></a>
             <Image
                     src={eu}
                     layout='fill'
@@ -209,7 +210,6 @@ export default function Home() {
               />
             </div>
             <div className={styles.col}>
-              <a href=''></a>
             <Image
                     src={esf}
                     layout='fill'
@@ -217,7 +217,6 @@ export default function Home() {
               />
             </div>
             <div className={styles.col}>
-              <a href=''></a>
             <Image
                     src={ber}
                     layout='fill'
