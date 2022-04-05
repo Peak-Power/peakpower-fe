@@ -19,7 +19,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Peak Power</title>
-        <meta name="description" content="The distributed balancing system" />
+        <meta name="description" content="A distributed balancing energy system" />
         <link rel="icon" href="/favicon.ico" />
         <script defer data-domain="peakpower.io" src="https://analytics.peakpower.io/js/plausible.js"></script>
       </Head>
