@@ -108,3 +108,39 @@
     flex-direction: column;
   }
 }
+
+.sticky {
+  position: fixed !important;
+  display: block !important;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar {
+  position: absolute;
+}
+
+.navbar>div {
+  padding: 1em 0;
+  font-family: Norwester;
+  font-size: 1.3em;
+}
+
+.navbar a {
+  color: #fff;
+  font-weight: 400;
+}
+.navbar span {
+  margin: 0 0.5em;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.navlogo {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+}
