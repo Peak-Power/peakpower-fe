@@ -172,12 +172,10 @@ export default function Home({ content }) {
                                 // <Collapsible title={s.title} content={s.content} />
                             )
                         })}
-
-
                     </div>
                 </div>
 
-                <div className={styles.blackStripe} id="for-partners">
+                <div className={styles.blackStripe} id="partners">
                     <h2>PARTNERS</h2>
                 </div>
 
@@ -192,50 +190,49 @@ export default function Home({ content }) {
                         </div>
                     </div>
                 </div>
-                {/* 
 
-                <div className={styles.blackStripe} id="the-team">
+
+                <div className={styles.blackStripe} id="team">
                     <h2>
-                        THE TEAM
+                        Team
                     </h2>
                 </div>
 
                 <div className={styles.whiteStripe}>
-                    <div className={styles.product}>
-                        Timo
-                        <div className={styles.text}>
-                            pic
-                        </div>
+                    <div className={styles.product_wrap}>
+                        {content.team.sections.map((s, i) => {
+                            return (
+                                <div key={i} className={styles.text}>
+                                    <div className={styles.col}>
+                                    <Image
+                                        src={s.image}
+                                        layout='fill'
+                                        objectFit='contain'
+                                    />
+                                    </div>
+                                    <h2>{s.title}</h2>
+                                    <hr className={styles.red} />
+                                    <div>{s.content}</div>
+                                </div>
+                            )
+                        })}
                     </div>
-                    <div className={styles.product}>
-                        Charlotte
-                        <div className={styles.text}>
-                            pic
-                        </div>
-                    </div>
-                    <div className={styles.product}>
-                        Luis
-                        <div className={styles.text}>
-                            pic
-                        </div>
-                    </div>
-                </div> */}
-
-                {/* 
-                <div className={styles.blackStripe}>
-                    <h2>
-                        LET&apos;S SHAPE THE <span className={styles.red}>ENERGY TRANSITION</span>!
-                    </h2>
                 </div>
 
 
+                <div className={styles.blackStripe} id="faq">
+                    <h2>FAQ</h2>
+                </div>
 
                 <div className={styles.whiteStripe}>
-                    <div className={styles.product}>
-                        <Widget id="QtfkkkmD" style={{ width: '100%', height: '100%' }} className="my-form" />
+                    <div className={styles.product_vertical}>
+                        {content.faq.sections.map((s, i) => {
+                            return (
+                                <Collapsible title={s.title} content={s.content} />
+                            )
+                        })}
                     </div>
-                </div> */}
-
+                </div>
 
                 <div className={styles.blackStripe}>
                     <h2>
@@ -259,8 +256,8 @@ export default function Home({ content }) {
                             </form>
                             <hr className={styles.red} />
                             <p>
-                                Meet us at the <a 
-                                    target="_blank" 
+                                Meet us at the <a
+                                    target="_blank"
                                     href="https://goo.gl/maps/K8L52mz92fZzXPE69"
                                     rel="noreferrer"
                                 >Future Energy Lab </a>

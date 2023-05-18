@@ -2,8 +2,6 @@ import Home from '../../components/Home.js'
 import styles from '../../styles/Home.module.css'
 import Image from 'next/image'
 
-import wind from '../../public/imgs/renew/2.jpg'
-import solar from '../../public/imgs/renew/13.jpg'
 import container from '../../public/imgs/peakpower_onsite_l.png'
 
 import solution1 from '../../public/imgs/info/1en.png'
@@ -16,6 +14,12 @@ import solutionb3 from '../../public/imgs/info/b3en.png'
 import solutionb4 from '../../public/imgs/info/b4en.png'
 
 import solutionc1 from '../../public/imgs/info/c1en.png'
+
+import timo from '../../public/imgs/team/timo.png'
+import charlotte from '../../public/imgs/team/charlotte.png'
+import luis from '../../public/imgs/team/luis.png'
+
+import faq from './faq.js'
 
 
 export default function HomeDE() {
@@ -226,29 +230,39 @@ export default function HomeDE() {
     },
     team: {
       sections: [
-        { title: "Timo", content: <div>img</div>},
-        { title: "Charlotte", content: <div>img</div>},
-        { title: "Luis", content: <div>img</div>},
+        { title: "Timo Juritsch", image: timo, 
+          content: <div>
+            Co-Founder | CEO
+            <br /><br />
+            Industrial Engineer | Energy
+            11+ YRS SCM & Operations
+            7+ YRS Leading X-functional Teams
+          </div>
+        },
+        { title: "Charlotte Wegener", 
+          image: charlotte, 
+          content: <div>
+            VP Operations
+            <br /><br />
+            International Business | SCM
+            6+ YRS O&M Renewables (E.ON | RWE)
+            5+ YRS Team lead O&M Systems & Cyber Security
+          </div>
+        },
+        { title: "Luis del Río Francos", image: luis, 
+          content: <div>
+            Co-Founder | CTO
+            <br /><br />
+            Back-End Developer | Data Science
+            12+ YRS Software Development
+            7+ YRS Leading Tech Teams
+          </div>
+        },
       ]
     },
     faq: {
       collapsible: true,
-      sections: [
-        { title: "PEAK POWER IN A NUTSHELL?", content: <div>
-          Peak Power drives energy asset ROI by enabling participation in 
-          energy markets, multiplying and optimizing the asset revenue streams. 
-          Peak Power supports energy asset owners and investors alike to operate 
-          and utilise asset capacities more efficiently, across markets and 
-          fully automated. Through big data, market forecasting, smart decision 
-          making and our next generation Virtual Power Plant (VPP).
-          <br />
-          Peak Power realises its solution by filling an integrator role in the 
-          energy industry between battery suppliers, the energy markets and 
-          investors and linking the parties with its proprietary Peak Power 
-          Optimization Engine.
-        </div> },
-        { title: "", content: <div></div> },
-      ]
+      sections: faq.faq,
     },
   }
   return <Home content={content} />

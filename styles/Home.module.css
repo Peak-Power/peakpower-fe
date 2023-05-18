@@ -57,12 +57,18 @@
 .red {
   color: #f00;
 }
-
 .product {
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: center;
+}
+.product_wrap {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 .product_vertical {
   display: flex;
@@ -81,7 +87,7 @@
   width: 70%;
   position: relative;
 }
-.product .col {
+.product_wrap .col, .product .col {
   height: 100%;
   min-height: 235px;
   min-width: 300px;
@@ -103,7 +109,7 @@
   align-self: center;
 }
 
-.product .text {
+.product_wrap .text, .product .text {
   max-width: 420px;
   min-width: 30%;
   padding: 1.5rem;
@@ -189,6 +195,7 @@ hr.red {
   width: 100%;
 }
 .collapsible .title {
+  cursor: pointer;
   padding: 1rem;
   background: #eee;
   /* color: #fff; */

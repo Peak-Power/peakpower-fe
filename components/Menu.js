@@ -9,11 +9,11 @@ export default function Menu({ lang }) {
                 <span>|</span>
                 <Link href='#solution'>LÖSUNG</Link>
                 <span>|</span>
-                <Link href='#for-partners'>PARTNER</Link>
+                <Link href='#partners'>PARTNER</Link>
                 <span>|</span>
-                <Link href='#the-team'>TEAM</Link>
+                <Link href='#team'>TEAM</Link>
                 <span>|</span>
-                <Link href='#the-team'>FAQ</Link>
+                <Link href='#faq'>FAQ</Link>
                 <span>|</span>
                 <Link href='#contact'>KONTAKT</Link>
                 <span>|</span>
@@ -29,17 +29,17 @@ export default function Menu({ lang }) {
                 <span>|</span>
                 <Link href='#solution'>SOLUTION</Link>
                 <span>|</span>
-                <Link href='#for-partners'>PARTNER SECTION</Link>
+                <Link href='#partners'>PARTNER SECTION</Link>
                 <span>|</span>
-                {/* <Link href='#the-team'>TEAM</Link>
+                <Link href='#team'>TEAM</Link>
                 <span>|</span>
-                <Link href='#the-team'>FAQ</Link>
-                <span>|</span> */}
+                <Link href='#faq'>FAQ</Link>
+                <span>|</span>
                 <Link href='#contact'>CONTACT</Link>
-                {/* <span>|</span>
+                <span>|</span>
                 <Link href='/de' className={styles.red}>
                     DE
-                </Link> */}
+                </Link>
             </div>
 
         )
