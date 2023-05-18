@@ -25,7 +25,7 @@ export default function HomeDE() {
     slogan: <span>A DISTRIBUTED<br />ENERGY BALANCING<br />SYSTEM</span>,
     about: {
       header: "Maximising storage investment returns. At grid scale.",
-      image: wind,
+      image: container,
       description: <div>
         <hr className={styles.red} />
         <p>
