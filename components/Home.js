@@ -164,7 +164,7 @@ export default function Home({ content }) {
                     <div className={styles.product_vertical}>
                         {content.solution.sections.map((s, i) => {
                             return (
-                                <div className={styles.text}>
+                                <div key={i} className={styles.text}>
                                     <h2>{s.title}</h2>
                                     <hr className={styles.red} />
                                     <div>{s.content}</div>
@@ -247,7 +247,7 @@ export default function Home({ content }) {
                     <div className={styles.product}>
                         <div className={styles.text}>
                             <h4>
-                                Leave us your email we'll get back to you
+                                Leave us your email we&rsquo;ll get back to you
                             </h4>
                             <hr className={styles.red} />
 
@@ -259,8 +259,11 @@ export default function Home({ content }) {
                             </form>
                             <hr className={styles.red} />
                             <p>
-                                Meet us at the <a target="_blank" href="https://goo.gl/maps/K8L52mz92fZzXPE69">
-                                Future Energy Lab </a>
+                                Meet us at the <a 
+                                    target="_blank" 
+                                    href="https://goo.gl/maps/K8L52mz92fZzXPE69"
+                                    rel="noreferrer"
+                                >Future Energy Lab </a>
                                 in Berlin
                                 <br />
                                 or approach us directly: <Link href="mailto:info@peakpower.io"><a>info@peakpower.io</a></Link></p>
