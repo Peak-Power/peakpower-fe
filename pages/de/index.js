@@ -4,16 +4,16 @@ import Image from 'next/image'
 
 import container from '../../public/imgs/peakpower_onsite_l.png'
 
-import solution1 from '../../public/imgs/info/1en.png'
-import solution2 from '../../public/imgs/info/2en.png'
-import solution3 from '../../public/imgs/info/3en.png'
+import solution1 from '../../public/imgs/info/1de.png'
+import solution2 from '../../public/imgs/info/2de.png'
+import solution3 from '../../public/imgs/info/3de.png'
 
 import solutionb1 from '../../public/imgs/info/b1en.png'
 import solutionb2 from '../../public/imgs/info/b2en.png'
 import solutionb3 from '../../public/imgs/info/b3en.png'
 import solutionb4 from '../../public/imgs/info/b4en.png'
 
-import solutionc1 from '../../public/imgs/info/c1en.png'
+import solutionc1 from '../../public/imgs/info/c1de.png'
 
 import timo from '../../public/imgs/team/timo.png'
 import charlotte from '../../public/imgs/team/charlotte.png'
@@ -24,7 +24,7 @@ import faq from './faq.js'
 
 export default function HomeDE() {
   const content = {
-    lang: "en",
+    lang: "de",
     description: "A distributed balancing energy system",
     slogan: <span>A DISTRIBUTED<br />ENERGY BALANCING<br />SYSTEM</span>,
     about: {
@@ -33,17 +33,17 @@ export default function HomeDE() {
       description: <div>
         <hr className={styles.red} />
         <p>
-          The world transitions from conventional energy sources to renewable energy sources, which leads to a more fluctuating energy production. This poses a challenge to our energy system.
-          <br /><br />
-          Storage capacity is urgently required to balance the grid and match fluctuating supply with varying electricity demand patterns.
-          <br /><br />
-          Peak Power helps maximise returns of investment (ROI) for electricity storage assets through:
-          <br /><br />
-          - trading energy assets across all available markets (EPEX day-ahead, intra-day, FCR, aFRR)
-          - employing our AI powered optimizer to trade your capacity in the best market at the right time with maximum returns
-          - building an ecosystem to efficiently and securely manage your storage asset
-          <br /><br />
-          Fully automated. As One-Stop-Shop.
+        Die Welt befindet sich im Wandel von fossilen Brennstoffen hin zu erneuerbarer Energieerzeugung, wie Solarstrom und Wind, die auf eine weniger planbare Weise Strom produzieren.
+        <br /><br />
+        Energiespeicher sind ein integraler Bestandteil des Energiesystems der Zukunft, um die Kontinuität der Stromproduktion zu gewährleisten und Energie durch das Zwischenspeichern gleichmäßig über den Tag zur Verfügung zu stellen.
+        <br /><br />
+        Peak Power betreibt Ihren Batteriespeicher in einem intelligenten Pool, optimiert den Betrieb und hilft dabei, die individuelle Investitionsrendite maßgeblich zu steigern, durch:
+        <br /><br />
+        - Marktübergreifenden Handel der Speicherkapazität (EPEX day-ahead, intra-day, FCR, aFRR)
+        - Unsere KI-basierte Software, die den optimalen Fahrplan für den Einsatz des Speichers erstellt und kontinuierlich optimiert
+        - Unser Ökosystem, das sicherstellt Speicher sicher und effizient zum Einsatz zu bringen
+        <br /><br />
+        Und das vollautomatisiert. Aus einer Hand.
         </p>
       </div>,
     },
@@ -51,13 +51,10 @@ export default function HomeDE() {
       image: container,
       sections: [
         {
-          title: "What we do and why",
+          title: "Was wir tun und warum",
           content: <div>
             <p>
-              Because of the necessary build-up of renewable energy sources,
-              energy storage capacity is needed.
-              Nowadays the capacity of storage assets is not fully used,
-              leading to lower ROIs of storage investments.
+            Aufgrund des notwendigen Ausbaus erneuerbarer Energiequellen werden Energiespeicherkapazitäten benötigt. Heutzutage wird die Kapazität der Speicherressourcen nicht vollständig genutzt, was zu geringeren ROIs von Speicherinvestitionen führt.
             </p>
             <div style={{ position: "relative", height: "400px" }}>
               <Image
@@ -75,9 +72,7 @@ export default function HomeDE() {
               />
             </div>
             <p>
-              Peak Power’s software optimises the revenue from an energy storage asset by
-              trading its capacity at the right market at the right time while
-              protecting the asset’s life.
+                Peak Powers Software optimiert die Einnahmen aus Energiespeicheranlagen, indem sie ihre Kapazität zum richtigen Zeitpunkt am richtigen Markt handelt und gleichzeitig die Lebensdauer der Anlage schützt.
             </p>
             <div style={{ position: "relative", height: "400px" }}>
               <Image
@@ -87,18 +82,18 @@ export default function HomeDE() {
               />
             </div>
             <p>
-              We are the integrator between market and asset management.
+            Wir sind der Integrator zwischen Markt- und Assetmanagement.
             </p>
           </div>,
         }, {
           title: "Customer Use Cases",
           content: <div style={{ diplay: "flex" }}>
-            <strong>Connect your energy storage asset to our system:</strong>
+            <strong>Verbinden Sie Ihr Asset mit unserer Lösung:</strong>
             <br /><br />
             <div className={styles.gridcol}>
               <div className={styles.gridtext}>
                 <h4>
-                  C.1. Battery Stand-Alone Investment
+                C.1. Investition in Netzdienlichen Batteriespeicher
                 </h4>
                 <br /><br />
                 <div style={{
@@ -114,26 +109,23 @@ export default function HomeDE() {
                   />
                 </div>
                 <br /><br />
-                Energy markets are established markets where investors can earn good returns and
-                diversify their portfolios.
+                Energiemärkte sind etablierte Märkte, auf denen Anleger gute Renditen erzielen und ihre Portfolios diversifizieren können.
                 <br /><br />
-                Peak Power trades your battery capacity at the right market, at the best price and
-                the right time. Fully automated.
+                Peak Power handelt Ihre Batteriekapazität am richtigen Markt, zum besten Preis und zum richtigen Zeitpunkt. Vollautomatisiert.
                 <br /><br />
-                Are you amongst our customers in the field of general infrastructure investments,
-                telecommunication or are you generally interested in an exciting investment opportunity?
+                Sind Sie einer unserer Kunden im Bereich von Infrastrukturinvestitionen, der Telekommunikation oder sind generell interessiert an einer spannenden Investition?
                 <br /><br />
                 <a
                   target="_blank"
                   href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
                   rel="noreferrer"
                 >
-                  Calculate your return
+                  Berechnen Sie Ihre Rendite
                 </a>
               </div>
               <div className={styles.gridtext}>
                 <h4>
-                  C.2. Load Shifting
+                C.2. Lastverschiebung
                 </h4>
                 <br /><br />
                 <div style={{ position: "relative", height: "200px", width: "100%" }}>
@@ -145,27 +137,23 @@ export default function HomeDE() {
                   />
                 </div>
                 <br /><br />
-                Solar systems produce more electricity around noon, while the production
-                of wind power fluctuates throughout the day. The high feed-in into the grid
-                at midday, for example, leads to low and sometimes even negative prices.
+                Solaranlagen produzieren Strom verstärkt um die Mittagsstunden, die Produktion von Windstrom fluktuiert über den Tag hinweg. Die hohe Einspeisung ins Netz in den Mittagsstunden bspw. führt zu niedrigen und teils sogar negativen Preisen.
                 <br /><br />
-                On the other hand, the intermediate storage of energy using a battery system
-                at times of low prices and the delayed feeding back into the grid in the evening
-                and in the morning hours at higher prices leads to increased yields from your system.
+                Das Zwischenspeichern von Energie mithilfe eines Batteriesystems zu Zeiten niedriger Preise hingegen und die verzögerte Einspeisung in das Netz Abends und in den Morgenstunden zu höheren Preisen führt zu gesteigerten Erträgen aus Ihrer Anlage.
                 <br /><br />
-                Are you amongst our potential customers operating PV, Wind or Biogas assets?
+                Sind Sie einer unserer landwirtschaftlichen Kunden mit Biogasanlagen und/oder betreiben Sie eine Photovoltaik- oder Windkraftanlage?
                 <br /><br />
                 <a
                   target="_blank"
                   href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
                   rel="noreferrer"
                 >
-                  Calculate your return
+                  Berechnen Sie Ihre Rendite
                 </a>
               </div>
               <div className={styles.gridtext}>
                 <h4>
-                  C.3. Energy Portfolio Optimisation
+                  C.3. Optimierung Ihres Energiemixes
                 </h4>
                 <br /><br />
                 <div style={{ position: "relative", height: "200px", width: "100%" }}>
@@ -177,26 +165,23 @@ export default function HomeDE() {
                   />
                 </div>
                 <br /><br />
-                Because of rising electricity prices, many companies employ a mixture
-                of renewable energy production and storage capacity to lower overall energy costs.
+                Aufgrund steigender Strompreise setzen viele Unternehmen auf eine Mischung aus erneuerbarer Energieerzeugung und -speicherung, um die Gesamtenergiekosten zu senken.
                 <br /><br />
-                Let us look at the idle capacity of your batterie and identify
-                how to optimise its operation.
+                Lassen Sie uns einen Blick auf die Ausnutzung Ihrer Batterie werfen und Vorschläge unterbreiten, wie wir den Betrieb der Batterie optimieren können.
                 <br /><br />
-                Are you amongst our potential customers of data centers, production
-                companies or energy producers?
+                Sind Sie einer unserer Kunden im Bereich Datencenter, produzierendem Gewerbe oder in der Energieerzeugung?
                 <br /><br />
                 <a
                   target="_blank"
                   href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
                   rel="noreferrer"
                 >
-                  Calculate your return
+                  Berechnen Sie Ihre Rendite
                 </a>
               </div>
               <div className={styles.gridtext}>
                 <h4>
-                  C.4. DSO
+                  C.4. VNBs und Stadtwerke
                 </h4>
                 <br /><br />
                 <div style={{ position: "relative", height: "200px", width: "100%" }}>
@@ -208,35 +193,29 @@ export default function HomeDE() {
                   />
                 </div>
                 <br /><br />
-                Being at the forefront of the energy transition, distribution system
-                operators (DSO) partner with storage capacity providers to manage loads
-                effectively and drive innovation. Peak Power optimises revenues to increase
-                energy storage asset ROIs. This leads to more profitable investments and helps
-                propel deployment of renewable energy sources.
+                Als Vorreiter der Energiewende arbeiten Verteilnetzbetreiber (VNB) und Stadtwerke mit Speicherkapazitätsanbietern zusammen, um Lasten effektiv zu verwalten und Innovation voranzutreiben. Peak Power optimiert die Handelsstrategie von Speichersystemen und unterstützt damit höhere Investitionsrenditen (ROI). Die Folge sind profitablere Investitionen in das Netz und Infrastruktur sowie die Unterstützung erneuerbarer Energieerzeugung.
                 <br /><br />
                 <a
                   target="_blank"
                   href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
                   rel="noreferrer"
                 >
-                  Curious how we can help? 
+                  Neugierig wie wir helfen können?
                 </a>
               </div>
             </div>
           </div>,
         }, {
-          title: "Calculate your returns",
+          title: "Rendite Berechnen",
           content: <div>
-            Unsure what we can do for you?
+            Sie sind sich nicht sicher, was wir für Sie tun können? 
             <a
               target="_blank"
               href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
               rel="noreferrer"
-            > Take our quiz </a>
-
-            and we will tell you
-            how we can make your business case more profitable through optimised
-            operation and trading.
+            > Nehmen Sie an unserem Quiz teil </a>
+            und wir verraten Ihnen, wie wir Ihr Business Case durch optimierten Betrieb und Handel profitabler machen können.
+            Unsure what we can do for you?
             <br />
           </div>,
         },
@@ -250,7 +229,7 @@ export default function HomeDE() {
         <small>
           **Michael Jordan**
         </small>
-        Do you want to be part of this journey? Become our partner.
+        Möchten Sie Teil des Peak Power Ökosystems werden? Werden Sie unser Partner.
         <br />
         <div style={{ position: "relative", height: "400px", width: "100%" }}>
           <Image
@@ -261,9 +240,7 @@ export default function HomeDE() {
           />
         </div>
         <br />
-        We are building an ecosystem with a focus on the optimisation of trading activities and
-        asset operations. We work with leading companies such as battery suppliers, financing companies
-        and VPP suppliers. Do you want to be become one of them?
+        Wir kreieren ein Ökosystem, das eine optimale Abstimmung zwischen der Optimierung von Energiehandelsaktivitäten und dem Betrieb von Anlagen gewährleistet. Wir arbeiten dabei mit führenden Unternehmen der Branche wie Batterielieferanten, Finanzierungsunternehmen und VPP-Anbietern zusammen. Möchten Sie einer von ihnen werden?
       </div>
     },
     team: {
