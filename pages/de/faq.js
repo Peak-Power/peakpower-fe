@@ -1,69 +1,49 @@
-export const faq =
-    [{
-        title: "PEAK POWER IN A NUTSHELL?",
-        content: "Peak Power drives energy asset ROI by enabling participation in energy markets, multiplying and optimizing the asset revenue streams. Peak Power supports energy asset owners and investors alike to operate and utilise asset capacities more efficiently, across markets and fully automated. Through big data, market forecasting, smart decision making and our next generation Virtual Power Plant (VPP). Peak Power realises its solution by filling an integrator role in the energy industry between battery suppliers, the energy markets and investors and linking the parties with its proprietary Peak Power Optimization Engine.",
-    },
-    {
-        title: "WHAT IS FLEXIBILITY FOR YOU? DO YOU MARKET IT?",
-        content: "Flexibility is often referred to the flexibly available capacity in an Asset. If this asset is a battery or any other energy asset does not matter here. Peak Power understands flexibility from a different angle, rather as the ability of an asset to operate differently than in its status quo. This means operating across more markets than today at a higher utilisation than today, with more realised market opportunities. In that sense Peak Power does market flexibility, both the flexibly available capacity of an asset (with or without restrictions such as peak shaving) and increasing the ability of an asset to operate cross-market. ",
-    },
-    {
-        title: "DO YOU OPERATE AS A DIRECT MARKETER / DIREKTVERMARKTER?",
-        content: "Peak Power also operates as a direct marketer. This offers the opportunity for Electricity producers, such as Wind and PV operators, to join the Peak Power Pool. ",
-    },
-    // {
-    //     title: "WHAT DO YOU DO DIFFERENT THAN OTHER PLAYERS SUCH AS NEXT-KRAFTWERKE?",
-    //     content: "Peak Power differentiates in several key approaches from Next-Kraftwerk. 1) Peak Power's envisioned asset pool structure is geared towards grid scale battery energy storage assets (BESS) with a minority share of energy production assets such as PV, Wind and Biogas. The focus on storage increases pool flexibility in terms of realisingmarket opportunities in a flexible manner. 2) being the focus on optimization across all markets. ",
-    // },
-    // {
-    //     title: "HOW IS YOUR SOLUTION BETTER THAN OTHERS?",
-    //     content: "Peak Power's competitive edge is in the flexibilisation of assets across all available markets and its pool focus on storage assets. With our 3rd generation VPP, we are able to create greater pool synergies than pools with either no specific asset focus or with a focus on small scale behind-the-meter assets. Since Peak Power operates the asset directly through the energy management system (EMS), Peak Power can take the best market opportunities in an instant manner, Overall however we do believe that the energy market will and need to be transformed by multiple companies, solving the big challenges we face from different angles at the same time. ",
-    // },
-    {
-        title: "WHAT IS YOUR TECHNOLOGY EDGE?",
-        content: "The main challenge in optimizing assets across markets is optimising around  commercial and technical restrictions - due to market design, asset set-up and operational mode. The EPEX Day-Ahead and Intraday market for instance does imply low retrictions in terms of liquidity and tradability. Acting on the demand driven balancing markets that are less liquid in the contrary however implies higher restrictions and a risk, not to be activated with energy by the TSO. Managing those conditions in an automated manner through Peak Power's intelligent system isthe core technology edge. ",
-    },
-    {
-        title: "HOW DO YOU EARN MONEY?",
-        content: "Peak Power operates with a revenue sharing model based on the asset revenues that we create through marketing the asset. When operating a production unit, we operate on a commission basis per MWh traded. ",
-    },
-    {
-        title: "DO YOU PRODUCE BATTERIES?",
-        content: "Peak Power does not produce batteries. However, Peak Power has built strategic alliances with battery suppliers and EPCs to leverage battery rollout as a route to market to position for scaling. ",
-    },
-    {
-        title: "DO YOU DEPLOY BATTERIES?",
-        content: "Peak Power supports the deployment of batteries in close alignment with investors and other stakeholders to leverage rollout as a route to market. Those batteries are thereafter operated in the Peak Power pool. ",
-    },
-    {
-        title: "WHAT IS THE LIFETIME OF A BATTERY?",
-        content: "The battery life highly depends on the number of cycles it is going through. Batteries have a lifetime of approx. 6-7 years at an average operation through the Peak Power optimization with an amotisation after 2-4 years. ",
-    },
-    {
-        title: "WHAT ARE TYPICAL PEAK POWER CUSTOMERS?",
-        content: "Peak Power looks at three main customer groups. 1) Farmers and Bürgerenergiegesellschaften / renewable energy communities, that do have existing assets or intend to deploy assets that need to be operated and optimized, 2) infrastructure investors that look at deploying capital into the energy industry, 3) DSOs / Stadtwerke, that need short term and/or planned energy services to clear their balance circle and shave peaks in their system. ",
-    },
-    {
-        title: "BATTERIES ARE KNOWN FOR THEIR BAD ENVIRONMENTAL AND SOCIAL FOOTPRINT. HOW DO YOU DEAL WITH THIS?",
-        content: "Peak Power is aware of the environmental impacts of battery manufacturing and has a strong drive to minimize the footprint of technology it works with. For this reason we are actively engaging battery suppliers using other technologies or approaches than conventional manufacturing of new battery cells and systems. To foster the circular economy, Peak Power has teamed up with a manufacturer of stationary systems from EV cells as well as with a manufacturer of compressed air batteries. On the side of new battery cells latest chemical battery technologies such as LiFePO4 (Lithium Iron Phosphate) are less impactful to the environment than other chemical battery technologies (by not using heavy metals or toxic materials). Peak Power focuses on this technology where possible to reduce the negative impact from the materials used in batteries we operate. ",
-    },
-    {
-        title: "HOW DO YOU INTEND TO SCALE? WHAT IS YOUR ROUTE TO MARKET?",
-        content: "Peak Power intends to scale via two main channels. Firstly through strategic alliances with battery suppliers, and by creating an additional customer value proposition (CVP) as an onboard solution to new batteries. Secondly through deployment of own systems once the Peak Power pool has reached a reasonable size. ",
-    },
-    {
-        title: "THE IMBALANCES HAVE GONE DOWN OVER THE LAST 10 YEARS BECAUSE FORECASTING HAS IMPROVED. HOW DO YOU SEE THE BUSINESS OPPORTUNITIES DEVELOPING OVER THE NEXT YEARS?",
-        content: "Peak Power believes that business opportunities will remain attractive over the next decade with a factor of 20-50x storage alone to come on stream. With more renewables and storage deployed and forecasting to improve, opportunities in the market will decrease in the very long run. Prior to this point Peak Power intends to branch out into regional energy services offered through the built asset pool . ",
-    },
-    {
-        title: "WHAT IS YOUR BIGGEST THREAT?",
-        content: "The energy industry is highly complex and dynamic and so is the development of regulations. What Peak Power observes in the market today is a high degree of uncertainty amongst market participants such as operators and infrastructure investors due to the complex regulatory environment. This implies a higher level of project termination  risk compared to other industries. Peak Power copes with this threat by building a solution that is both asset agnostic and flexible towards regulatory changes as well as forming strategic alliances to support a solid route to market. ",
-    },
-    // {
-    //     title: "HOW ARE YOU SPENDING FUNDS INVESTED INTO PEAK POWER?",
-    //     content: "We appreciate the energy industry being a highly regulated field with long sales cycles and dynamic changes in the market environment. For this reason we consciously build a reasonably sized team to focus on the value adding arts of the business. Funds will be distributed approx. 80% to the team with half of it going into the tech development and 20% in infrastructure and overhead. ",
-    // },
-    ]
+export const faq = [{
+        title: "Peak Power IN a nutshell?",
+        content: "Peak Power steigert den ROI von Energieanlagen, indem es die Teilnahme an Energiemärkten ermöglicht und die Einnahmequellen der Anlagen vervielfacht und optimiert. Peak Power unterstützt Eigentümer und Investoren von Energieanlagen gleichermaßen dabei, Anlagenkapazitäten effizienter, marktübergreifend und vollständig automatisiert zu betreiben und zu nutzen. Durch Big Data, Marktprognosen, intelligente Entscheidungsfindung und unser virtuelles Kraftwerk (VPP) der nächsten Generation. Peak Power realisiert seine Lösung, indem es eine Integratorrolle in der Energiebranche zwischen Batterielieferanten, den Energiemärkten und Investoren übernimmt und die Parteien mit seiner proprietären Peak Power Optimization Engine verbindet. |"
+    },{
+        title: "WAS IST FLEXIBILITÄT FÜR SIE? VERMARKTEN SIE ES?",
+        content: "Als Flexibilität wird oft die flexibel verfügbare Kapazität in einem Asset bezeichnet. Ob es sich bei dieser Anlage um eine Batterie oder eine andere Energieanlage handelt, spielt hier keine Rolle. Peak Power versteht Flexibilität aus einem anderen Blickwinkel, eher als die Fähigkeit eines Speicherassets, anders zu funktionieren als in seinem Status quo. Das bedeutet, dass wir auf mehr Märkten als heute mit einer höheren Auslastung als heute und somit mehr realisierten Marktchancen operieren. In diesem Sinne bietet Peak Power Marktflexibilität, sowohl die flexibel verfügbare Kapazität eines Speicherassets (mit oder ohne Einschränkungen wie z.B. Spitzenlastausgleich) als auch die Erhöhung der Fähigkeit eines Speicherassets, marktübergreifend zu agieren. |"
+    },{
+        title: "Sind Sie als Direktvermarkter tätig?",
+        content: "Peak Power ist auch als Direktvermarkter tätig. Dies bietet Stromerzeugern wie Wind- und PV-Betreibern die Möglichkeit, dem Peak Power Pool beizutreten. |"
+    // },{
+    //     title: "WAS MACHEN SIE anders ALS ANDERE Firmen in diesem Markt WIE NEXT-KRAFTWERKE?",
+    //     content: "Peak Power unterscheidet sich in mehreren wesentlichen Ansätzen von Next-Kraftwerk. 1) Die geplante Asset-Pool-Struktur von Peak Power ist auf Batteriespeichersysteme (BESS) im Netzmaßstab mit geringerem Fokus auf Energieerzeugungsanlagen wie PV, Wind und Biogas ausgerichtet. Der Fokus auf Speicher erhöht die Flexibilität des Pools im Hinblick auf die flexible Umsetzung von Marktchancen. 2) Der Fokus liegt auf der Optimierung in allen Märkten. |"
+    // },{
+    //     title: "Was ist ihr Technologie-Alleinstellungsmerkmal?",
+    //     content: "Die größte Herausforderung bei der marktübergreifenden Optimierung von Assets besteht in der Optimierung der kommerziellen und technischen Einschränkungen – aufgrund des Marktdesigns, der Asset-Einrichtung und der Betriebsweise. Der Day-Ahead- und Intraday-Markt der EPEX bringt beispielsweise geringe Einschränkungen hinsichtlich Liquidität und Handelbarkeit mit sich. Das Handeln auf nachfragegesteuerten Ausgleichsmärkten, die weniger liquide sind, birgt dagegen höhere Einschränkungen und das Risiko, vom ÜNB nicht mit Energie aktiviert zu werden. Die automatisierte Verwaltung dieser Bedingungen durch das intelligente System von Peak Power ist der entscheidende Technologievorsprung. |"
+    },{
+        title: "Wie verdient Peak Power?",
+        content: "Peak Power arbeitet mit einem Umsatzbeteiligungsmodell, das auf den Erträgen basiert, die wir durch die Vermarktung des Vermögenswerts erzielen. Beim Betrieb einer Produktionseinheit arbeiten wir auf Provisionsbasis pro gehandelter MWh. |"
+    },{
+        title: "PRODUZIEREN SIE BATTERIEN?",
+        content: "Peak Power produziert keine Batterien. Peak Power hat jedoch strategische Allianzen mit Batterielieferanten und EPCs aufgebaut, um die Batterieeinführung als Weg zur Markteinführung und zur Skalierung zu nutzen. |"
+    },{
+        title: "Setzen Sie Batterien ein?",
+        content: "Peak Power unterstützt den Einsatz von Batterien in enger Abstimmung mit Investoren und anderen Interessengruppen, um das Rollout von Batterien als Weg zur Markteinführung zu nutzen. Diese Batterien werden im Peak Power Pool betrieben. |"
+    },{
+        title: "Wie hoch ist die Lebensdauer einer Batterie?",
+        content: "Die Batterielebensdauer hängt stark von der Anzahl der Zyklen ab, die sie durchläuft. Batterien haben eine Lebensdauer von ca. 6-7 Jahre bei durchschnittlichem Betrieb durch die Peak-Power-Optimierung mit einer Amortisierung nach 2-4 Jahren. |"
+    },{
+        title: "WAS SIND TYPISCHE Peak Power Kunden?",
+        content: "Peak Power betrachtet drei Hauptkundengruppen. 1) Landwirte und Bürgerenergiegesellschaften/Erneuerbare-Energien-Gemeinschaften, die über bestehende Erzeugungs-/Speicheranlagen verfügen oder beabsichtigen, Anlagen einzusetzen, die betrieben und optimiert werden müssen, 2) Infrastrukturinvestoren, die Kapital in die Energiewirtschaft investieren möchten, 3) VNB/Stadtwerke, die Bedarf haben kurzfristige und/oder geplante Energiedienstleistungen, um ihren Bilanzkreise zu balancieren und Spitzen in ihrem System zu reduzieren. |"
+    },{
+        title: "BATTERIEN SIND FÜR IHREN SCHLECHTEN UMWELT- UND SOZIALEN FUSSABDRUCK BEKANNT. Wie gehen Sie damit um?",
+        content: "Peak Power ist sich der Umweltauswirkungen der Batterieherstellung bewusst und ist bestrebt, den Fußabdruck der verwendeten Technologie zu minimieren. Aus diesem Grund engagieren wir uns aktiv bei Batterielieferanten, die andere Technologien oder Ansätze als die herkömmliche Herstellung neuer Batteriezellen und -systeme nutzen. Um die Kreislaufwirtschaft zu fördern, hat sich Peak Power mit einem Hersteller stationärer Systeme aus EV-Zellen sowie einem Hersteller von Druckluftbatterien zusammengetan. Neue Batteriezellen sind durch chemische Batterietechnologien wie LiFePO4 (Lithiumeisenphosphat) weniger schädlich für die Umwelt als andere chemische Batterietechnologien, da keine Schwermetalle oder giftige Materialien verwendet werden. Peak Power konzentriert sich nach Möglichkeit auf diese Technologie, um die negativen Auswirkungen der in den von uns betriebenen Batterien verwendeten Materialien zu reduzieren. |"
+    },{
+        title: "Wie wollen Sie skalieren? Was ist Ihre Route to market?",
+        content: "Peak Power beabsichtigt, über zwei Hauptkanäle zu skalieren. Erstens durch strategische Allianzen mit Batterielieferanten und durch die Schaffung eines zusätzlichen Customer value proposition (CVP) als Onboarding-Lösung für neue Batterien. Zweitens durch den Einsatz eigener Systeme, sobald der Peak Power Pool eine angemessene Größe erreicht hat. |"
+    },{
+        title: "Die Ungleichgewichte sind in den letzten 10 Jahren zurückgegangen, weil sich die Prognosen verbessert haben. WIE SEHEN SIE DIE ENTWICKLUNG DER GESCHÄFTSMÖGLICHKEITEN IN DEN NÄCHSTEN JAHREN?",
+        content: "Peak Power geht davon aus, dass die Geschäftsmöglichkeiten auch in den nächsten zehn Jahren attraktiv bleiben werden, da allein die Speicherkapazität um das 20- bis 50-fache in Betrieb gehen wird. Da mehr erneuerbare Energien und Speicher eingesetzt werden und eine Verbesserung prognostiziert wird, werden die Chancen im Markt auf lange Sicht abnehmen. Zuvor beabsichtigt Peak Power, sich auf regionale Energiedienstleistungen zu konzentrieren, die über den aufgebauten Asset-Pool angeboten werden. |"
+    },{
+        title: "WAS IST IHRE GRÖSSTE BEDROHUNG?",
+        content: "Die Energiewirtschaft ist hochkomplex und dynamisch, ebenso wie die Entwicklung von Regulierungen. Was Peak Power heute am Markt beobachtet, ist ein hohes Maß an Unsicherheit bei Marktteilnehmern wie Betreibern und Infrastrukturinvestoren aufgrund des komplexen regulatorischen Umfelds. Dies impliziert im Vergleich zu anderen Branchen ein höheres Risiko für Projektabbrüche. Peak Power bewältigt diese Bedrohung, indem es eine Lösung entwickelt, die sowohl anlagenunabhängig als auch flexibel gegenüber regulatorischen Änderungen ist, und strategische Allianzen bildet, um einen soliden Weg zur Markteinführung zu unterstützen. |"
+    // },{
+    //     title: "WIE GEBEN SIE DIE IN PEAK POWER INVESTIERTEN MITTEL AUS?",
+    //     content: "Die Energiebranche ist ein stark regulierter Bereich mit langen Verkaufszyklen und dynamischen Veränderungen im Marktumfeld ist. Aus diesem Grund bauen wir bewusst ein angemessen großes Team auf, um uns auf den wertschöpfenden Kern des Unternehmens zu konzentrieren. 80 % der Mittel gehen ins Team, die Hälfte davon fließt in die technische Entwicklung und 20 % in Infrastruktur und Gemeinkosten. |"
+    },]
 
 export default {
     faq
