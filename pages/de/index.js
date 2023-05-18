@@ -19,7 +19,7 @@ import timo from '../../public/imgs/team/timo.png'
 import charlotte from '../../public/imgs/team/charlotte.png'
 import luis from '../../public/imgs/team/luis.png'
 
-import faq from './faq.js'
+import faq from '../../components/faq_de.js'
 
 
 export default function HomeDE() {

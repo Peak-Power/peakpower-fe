@@ -228,7 +228,7 @@ export default function Home({ content }) {
                     <div className={styles.product_vertical}>
                         {content.faq.sections.map((s, i) => {
                             return (
-                                <Collapsible title={s.title} content={s.content} />
+                                <Collapsible key={i} title={s.title} content={s.content} />
                             )
                         })}
                     </div>
