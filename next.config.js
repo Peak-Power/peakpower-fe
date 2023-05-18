@@ -1,7 +1,7 @@
 module.exports = {
   images: {
     loader: 'imgix',
-    path: 'https://landing-page.s3-website.nl-ams.scw.cloud/',
+    path: 'https://deploy-preview-3--peakpwr.netlify.app/',
   },
   reactStrictMode: true,
 }
