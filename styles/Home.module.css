@@ -9,6 +9,9 @@
   z-index: -1;
   width: 100%;
 }
+.fix>div {
+  text-shadow: 1px 1px 5px #aaa;
+}
 .logo {
   max-width: 400px;
   padding: 0 2rem;
@@ -61,6 +64,18 @@
   justify-content: center;
   align-items: center;
 }
+.product_vertical {
+  display: flex;
+  flex: 1;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+}
+
+.product_vertical h2 {
+  margin: 10px 0;
+}
+
 .col {
   min-width: 70px;
   width: 70%;
@@ -70,6 +85,7 @@
   height: 100%;
   min-height: 235px;
   min-width: 300px;
+  /* min-width: 50%; */
 }
 .backers .col {
   height: 55px;
@@ -77,6 +93,14 @@
 }
 .backers .smimg {
   height: 30px;
+}
+
+.product_vertical .text {
+  min-width: 30%;
+  padding: 1.5rem;
+
+  max-width: 1200px;
+  align-self: center;
 }
 
 .product .text {
@@ -122,9 +146,11 @@
 }
 
 .navbar>div {
-  padding: 1em 0;
-  font-family: Norwester;
+  padding: 0.9em 0;
+  font-family: Gobold, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 1.3em;
+  letter-spacing: 1px;
 }
 
 .navbar a {
@@ -132,9 +158,10 @@
   font-weight: 400;
 }
 .navbar span {
-  margin: 0 0.5em;
-  font-size: 1.5rem;
+  margin: -1em 0.5em;
+  font-size: 1.3rem;
   color: #fff;
+  display: inline-block;
 }
 .navlogo {
   display: none;
@@ -143,4 +170,65 @@
   right: 20px;
   height: 70px;
   width: 70px;
+}
+
+.video {   
+  margin-top: -10vh;
+  object-fit: cover;   
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1; 
+}
+
+hr.red {
+  border-top: 1px solid red;
+}
+
+.collapsible {
+  width: 100%;
+}
+.collapsible .title {
+  padding: 1rem;
+  background: #eee;
+  /* color: #fff; */
+  border: #111 solid 1px;
+}
+.collapsible .content {
+  padding: 1rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gridcol {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gridtext {
+  padding: 10px;
+  /* padding-top: 10px;
+  padding-right: 10px; */
+
+  align-content: flex-start;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-basis: 250px;
+  border: #111 solid 1px;
+  margin-right: -1px;
+  margin-top: -1px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.gridtext h4 {
+  margin: 0 0 10px 0;
+  min-height: 50px;
+}
+
+.text small {
+  display: block;
+  text-align: right;
 }
