@@ -27,7 +27,7 @@ import { faLinkedin } from '@fortawesome/fontawesome-free-brands'
 
 
 
-export default function HomeDE() {
+export default function HomeEN() {
   const content = {
     lang: "en",
     description: "Maximising storage investment returns at scale",
