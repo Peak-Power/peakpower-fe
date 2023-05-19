@@ -185,6 +185,10 @@
   height: 100%;
   position: fixed;
   z-index: -1; 
+
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
 }
 
 hr.red {
@@ -238,4 +242,10 @@ hr.red {
 .text small {
   display: block;
   text-align: right;
+}
+
+@media (max-width: 767px) {
+  .navbar, .navlogo {
+    display: none !important;
+  }
 }

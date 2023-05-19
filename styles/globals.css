@@ -41,6 +41,10 @@ input {
   padding: 1rem;
 }
 
+ul {
+  padding-left: 15px;
+}
+
 @font-face {
   font-family: Norwester;
   src: url("/fonts/norwester/norwester.otf") format("opentype");

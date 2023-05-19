@@ -3,8 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import logo from '../public/imgs/logo.png'
 import logo_w from '../public/imgs/logo_d.png'
-import container from '../public/imgs/peakpower_onsite_l.png'
-import flex from '../public/imgs/flex.png'
 import sibb from '../public/imgs/backers/sibb.png'
 import ber from '../public/imgs/backers/ber.png'
 import eu from '../public/imgs/backers/eu.png'
@@ -12,7 +10,6 @@ import esf from '../public/imgs/backers/esf.png'
 import antler from '../public/imgs/backers/antler.svg'
 import Link from 'next/link'
 import { useEffect, useRef } from 'react'
-import { Widget } from '@typeform/embed-react'
 import Menu from './Menu.js'
 import Collapsible from './Collapsible.js'
 
@@ -98,11 +95,13 @@ export default function Home({ content }) {
                 <title>Peak Power</title>
                 <meta name="description" content={content.description} />
                 <link rel="icon" href="/favicon.ico" />
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
             </Head>
 
             <div className={styles.fix}>
-                <video ref={videoRef} muted loop className={styles.video}>
-                    <source src="./videos/wind1.mp4" type="video/mp4" />
+                <video ref={videoRef} muted loop className={styles.video} id="homevideo">
+                    <source src="./videos/wind3.mp4" type="video/mp4" />
                 </video>
             </div>
             <div className={styles.fix}>
@@ -133,14 +132,14 @@ export default function Home({ content }) {
                     </a>
                     </Link>
                 </div>
-                <div className={styles.blackStripe} ref={targetRef} id="about"></div>
+                <div className={styles.blackStripe} ref={targetRef} id="about">
+                    <h2>{content.about.title}</h2>
+                </div>
 
                 <div className={styles.whiteStripe}>
                     <div className={styles.product}>
                         <div className={styles.text}>
-                            <h2>
-                                {content.about.header}
-                            </h2>
+                            <h2>{content.about.title}</h2>
                             {content.about.description}
                         </div>
                         <div className={styles.col}>
@@ -157,7 +156,7 @@ export default function Home({ content }) {
 
 
                 <div className={styles.blackStripe} id="solution">
-                    <h2>Solution</h2>
+                    <h2>{content.solution.title}</h2>
                 </div>
 
                 <div className={styles.whiteStripe}>
@@ -176,7 +175,7 @@ export default function Home({ content }) {
                 </div>
 
                 <div className={styles.blackStripe} id="partners">
-                    <h2>PARTNERS</h2>
+                    <h2>{content.partners.title}</h2>
                 </div>
 
 
@@ -193,9 +192,7 @@ export default function Home({ content }) {
 
 
                 <div className={styles.blackStripe} id="team">
-                    <h2>
-                        Team
-                    </h2>
+                    <h2>{content.team.title}</h2>
                 </div>
 
                 <div className={styles.whiteStripe}>
@@ -221,7 +218,7 @@ export default function Home({ content }) {
 
 
                 <div className={styles.blackStripe} id="faq">
-                    <h2>FAQ</h2>
+                    <h2>{content.faq.title}</h2>
                 </div>
 
                 <div className={styles.whiteStripe}>
@@ -235,9 +232,7 @@ export default function Home({ content }) {
                 </div>
 
                 <div className={styles.blackStripe}>
-                    <h2>
-                        Contact
-                    </h2>
+                    <h2>{content.contact.title}</h2>
                 </div>
 
                 <div className={styles.whiteStripe}>

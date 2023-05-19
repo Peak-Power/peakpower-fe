@@ -20,6 +20,7 @@ import charlotte from '../../public/imgs/team/charlotte.png'
 import luis from '../../public/imgs/team/luis.png'
 
 import faq from '../../components/faq_en.js'
+import Link from 'next/dist/client/link.js'
 
 
 export default function HomeDE() {
@@ -28,26 +29,36 @@ export default function HomeDE() {
     description: "A distributed balancing energy system",
     slogan: <span>A DISTRIBUTED<br />ENERGY BALANCING<br />SYSTEM</span>,
     about: {
+      title: "About Peak Power",
       header: "Maximising storage investment returns. At grid scale.",
       image: container,
       description: <div>
         <hr className={styles.red} />
         <p>
-          The world transitions from conventional energy sources to renewable energy sources, which leads to a more fluctuating energy production. This poses a challenge to our energy system.
+          The world transitions from conventional energy sources to renewable energy sources, which leads to a more fluctuating energy production. Production posing a challenge to our energy system.
           <br /><br />
           Storage capacity is urgently required to balance the grid and match fluctuating supply with varying electricity demand patterns.
           <br /><br />
-          Peak Power helps maximise returns of investment (ROI) for electricity storage assets through:
+          Peak Power helps maximise returns on investment (ROI) for electricity storage assets through:
           <br /><br />
-          - trading energy assets across all available markets (EPEX day-ahead, intra-day, FCR, aFRR)
-          - employing our AI powered optimizer to trade your capacity in the best market at the right time with maximum returns
-          - building an ecosystem to efficiently and securely manage your storage asset
+          <ul>
+            <li>
+              trading energy assets across all available markets (EPEX day-ahead, intra-day, FCR, aFRR)
+            </li>
+            <li>
+              employing our AI powered optimizer to trade your capacity in the best market at the right time with maximum returns
+            </li>
+            <li>
+              building an ecosystem to efficiently and securely manage your storage asset
+            </li>
+          </ul>
           <br /><br />
           Fully automated. As One-Stop-Shop.
         </p>
       </div>,
     },
     solution: {
+      title: "Solution",
       image: container,
       sections: [
         {
@@ -87,7 +98,7 @@ export default function HomeDE() {
               />
             </div>
             <p>
-              We are the integrator between market and asset management.
+              Peak Power is the integrator between market and asset management.
             </p>
           </div>,
         }, {
@@ -243,6 +254,7 @@ export default function HomeDE() {
       ]
     },
     partners: {
+      title: "Partner Section",
       header: "Talent wins games, but teamwork and intelligence win championships.",
       subheader: "",
       description: <div>
@@ -264,9 +276,12 @@ export default function HomeDE() {
         We are building an ecosystem with a focus on the optimisation of trading activities and
         asset operations. We work with leading companies such as battery suppliers, financing companies
         and VPP suppliers. Do you want to be become one of them?
+        <br /><br />
+        <Link href="#contact">Get in contact with us</Link>
       </div>
     },
     team: {
+      title: "Team",
       sections: [
         {
           title: "Timo Juritsch", image: timo,
@@ -302,9 +317,13 @@ export default function HomeDE() {
       ]
     },
     faq: {
+      title: "FAQ",
       collapsible: true,
       sections: faq.faq,
     },
+    contact: {
+      title: "Contact",
+    }
   }
   return <Home content={content} />
 }
