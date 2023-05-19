@@ -22,6 +22,10 @@ import luis from '../../public/imgs/team/luis.png'
 import faq from '../../components/faq_en.js'
 import Link from 'next/dist/client/link.js'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/fontawesome-free-brands'
+
+
 
 export default function HomeDE() {
   const content = {
@@ -230,7 +234,7 @@ export default function HomeDE() {
                   href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
                   rel="noreferrer"
                 >
-                  Curious how we can help? 
+                  Curious how we can help?
                 </a>
               </div>
             </div>
@@ -262,6 +266,7 @@ export default function HomeDE() {
         <small>
           **Michael Jordan**
         </small>
+        <br /><br />
         Do you want to be part of this journey? Become our partner.
         <br />
         <div style={{ position: "relative", height: "400px", width: "100%" }}>
@@ -286,17 +291,36 @@ export default function HomeDE() {
         {
           title: "Timo Juritsch", image: timo,
           content: <div>
+            <small>
+              <a target='_blank' rel="noreferrer"
+                href='https://www.linkedin.com/in/timojuritsch/'>
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  width="20px"
+                />
+              </a>
+            </small>
             Co-Founder | CEO
             <br /><br />
             Industrial Engineer | Energy
             11+ YRS SCM & Operations
             7+ YRS Leading X-functional Teams
+            <br /><br />
           </div>
         },
         {
           title: "Charlotte Wegener",
           image: charlotte,
           content: <div>
+            <small>
+              <a target='_blank' rel="noreferrer"
+                href='https://www.linkedin.com/in/charlottewegener/'>
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  width="20px"
+                />
+              </a>
+            </small>
             VP Operations
             <br /><br />
             International Business | SCM
@@ -307,6 +331,15 @@ export default function HomeDE() {
         {
           title: "Luis del Río Francos", image: luis,
           content: <div>
+            <small>
+              <a target='_blank' rel="noreferrer"
+                href='https://www.linkedin.com/in/luis-del-rio-francos/'>
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  width="20px"
+                />
+              </a>
+            </small>
             Co-Founder | CTO
             <br /><br />
             Back-End Developer | Data Science

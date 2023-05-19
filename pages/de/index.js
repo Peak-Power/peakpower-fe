@@ -22,6 +22,9 @@ import luis from '../../public/imgs/team/luis.png'
 import faq from '../../components/faq_de.js'
 import Link from 'next/dist/client/link.js'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin } from '@fortawesome/fontawesome-free-brands'
+
 
 export default function HomeDE() {
     const content = {
@@ -241,6 +244,7 @@ export default function HomeDE() {
                 <small>
                     **Michael Jordan**
                 </small>
+                <br /><br />
                 Möchten Sie Teil des Peak Power Ökosystems werden? Werden Sie unser Partner.
                 <br />
                 <div style={{ position: "relative", height: "400px", width: "100%" }}>
@@ -263,6 +267,15 @@ export default function HomeDE() {
                 {
                     title: "Timo Juritsch", image: timo,
                     content: <div>
+                        <small>
+                            <a target='_blank' rel="noreferrer"
+                                href='https://www.linkedin.com/in/timojuritsch/'>
+                                <FontAwesomeIcon
+                                    icon={faLinkedin}
+                                    width="20px"
+                                />
+                            </a>
+                        </small>
                         Co-Founder | CEO
                         <br /><br />
                         Industrial Engineer | Energy
@@ -274,6 +287,15 @@ export default function HomeDE() {
                     title: "Charlotte Wegener",
                     image: charlotte,
                     content: <div>
+                        <small>
+                            <a target='_blank' rel="noreferrer"
+                                href='https://www.linkedin.com/in/charlottewegener/'>
+                                <FontAwesomeIcon
+                                    icon={faLinkedin}
+                                    width="20px"
+                                />
+                            </a>
+                        </small>
                         VP Operations
                         <br /><br />
                         International Business | SCM
@@ -284,6 +306,15 @@ export default function HomeDE() {
                 {
                     title: "Luis del Río Francos", image: luis,
                     content: <div>
+                        <small>
+                            <a target='_blank' rel="noreferrer"
+                                href='https://www.linkedin.com/in/luis-del-rio-francos/'>
+                                <FontAwesomeIcon
+                                    icon={faLinkedin}
+                                    width="20px"
+                                />
+                            </a>
+                        </small>
                         Co-Founder | CTO
                         <br /><br />
                         Back-End Developer | Data Science
@@ -299,7 +330,7 @@ export default function HomeDE() {
             sections: faq.faq,
         },
         contact: {
-          title: "Contact",
+            title: "Contact",
         }
     }
     return <Home content={content} />

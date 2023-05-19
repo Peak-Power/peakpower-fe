@@ -9,6 +9,10 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@typeform/embed-react": "^2.21.0",
     "next": "12.0.4",
     "react": "17.0.2",

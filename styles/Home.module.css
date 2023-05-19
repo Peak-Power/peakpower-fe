@@ -242,6 +242,7 @@ hr.red {
 .text small {
   display: block;
   text-align: right;
+  margin-bottom: -25px;
 }
 
 @media (max-width: 767px) {
