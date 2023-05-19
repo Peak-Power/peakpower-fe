@@ -164,8 +164,16 @@ export default function Home({ content }) {
                         {content.solution.sections.map((s, i) => {
                             return (
                                 <div key={i} className={styles.text}>
-                                    <h2>{s.title}</h2>
-                                    <hr className={styles.red} />
+                                    {s.titleLink
+                                    ? <a target="_blank" rel="noreferrer" href={s.titleLink}> 
+                                        <h2 className={styles.button}>{s.title}</h2>
+                                    </a>
+                                    : <div>
+                                        <h2>{s.title}</h2>
+                                        <hr className={styles.red} />
+                                    </div>
+                                    }
+                                        
                                     <div>{s.content}</div>
                                 </div>
                                 // <Collapsible title={s.title} content={s.content} />

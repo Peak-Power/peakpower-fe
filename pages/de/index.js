@@ -29,7 +29,7 @@ import { faLinkedin } from '@fortawesome/fontawesome-free-brands'
 export default function HomeDE() {
     const content = {
         lang: "de",
-        description: "A distributed balancing energy system",
+        description: "Maximising storage investment returns at scale",
         slogan: <span>A DISTRIBUTED<br />ENERGY BALANCING<br />SYSTEM</span>,
         about: {
             title: "Über Peak Power",
@@ -70,7 +70,7 @@ export default function HomeDE() {
                         <p>
                             Aufgrund des notwendigen Ausbaus erneuerbarer Energiequellen werden Energiespeicherkapazitäten benötigt. Heutzutage wird die Kapazität der Speicherressourcen nicht vollständig genutzt, was zu geringeren ROIs von Speicherinvestitionen führt.
                         </p>
-                        <div style={{ position: "relative", height: "400px" }}>
+                        <div className={`${styles.solutionImg} ${styles.solutionImgIn}`}>
                             <Image
                                 src={solution1}
                                 layout='fill'
@@ -78,7 +78,7 @@ export default function HomeDE() {
                             />
                         </div>
                         <br /><br />
-                        <div style={{ position: "relative", height: "400px" }}>
+                        <div className={`${styles.solutionImg} ${styles.solutionImgIn}`}>
                             <Image
                                 src={solution2}
                                 layout='fill'
@@ -88,7 +88,7 @@ export default function HomeDE() {
                         <p>
                             Peak Powers Software optimiert die Einnahmen aus Energiespeicheranlagen, indem sie ihre Kapazität zum richtigen Zeitpunkt am richtigen Markt handelt und gleichzeitig die Lebensdauer der Anlage schützt.
                         </p>
-                        <div style={{ position: "relative", height: "400px" }}>
+                        <div className={`${styles.solutionImg}`}>
                             <Image
                                 src={solution3}
                                 layout='fill'

@@ -30,7 +30,7 @@ import { faLinkedin } from '@fortawesome/fontawesome-free-brands'
 export default function HomeDE() {
   const content = {
     lang: "en",
-    description: "A distributed balancing energy system",
+    description: "Maximising storage investment returns at scale",
     slogan: <span>A DISTRIBUTED<br />ENERGY BALANCING<br />SYSTEM</span>,
     about: {
       title: "About Peak Power",
@@ -74,27 +74,33 @@ export default function HomeDE() {
               Nowadays the capacity of storage assets is not fully used,
               leading to lower ROIs of storage investments.
             </p>
-            <div style={{ position: "relative", height: "400px" }}>
-              <Image
-                src={solution1}
-                layout='fill'
-                objectFit='contain'
-              />
+            <div style={{display: "flex"}}>
             </div>
-            <br /><br />
-            <div style={{ position: "relative", height: "400px" }}>
-              <Image
-                src={solution2}
-                layout='fill'
-                objectFit='contain'
-              />
-            </div>
+              <div className='gridcol'>
+
+              </div>
+              <div className={`${styles.solutionImg} ${styles.solutionImgIn}`}>
+                <Image
+                  src={solution1}
+                  layout='fill'
+                  objectFit='contain'
+                  sizes='100vw'
+                />
+              </div>
+              <div className={`${styles.solutionImg} ${styles.solutionImgIn}`}>
+                <Image
+                  src={solution2}
+                  layout='fill'
+                  objectFit='contain'
+                />
+              </div>
+              <br /><br />
             <p>
               Peak Power’s software optimises the revenue from an energy storage asset by
               trading its capacity at the right market at the right time while
               protecting the asset’s life.
             </p>
-            <div style={{ position: "relative", height: "400px" }}>
+            <div className={`${styles.solutionImg}`}>
               <Image
                 src={solution3}
                 layout='fill'
@@ -138,13 +144,6 @@ export default function HomeDE() {
                 Are you amongst our customers in the field of general infrastructure investments,
                 telecommunication or are you generally interested in an exciting investment opportunity?
                 <br /><br />
-                <a
-                  target="_blank"
-                  href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
-                  rel="noreferrer"
-                >
-                  Calculate your return
-                </a>
               </div>
               <div className={styles.gridtext}>
                 <h4>
@@ -170,13 +169,6 @@ export default function HomeDE() {
                 <br /><br />
                 Are you amongst our potential customers operating PV, Wind or Biogas assets?
                 <br /><br />
-                <a
-                  target="_blank"
-                  href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
-                  rel="noreferrer"
-                >
-                  Calculate your return
-                </a>
               </div>
               <div className={styles.gridtext}>
                 <h4>
@@ -201,13 +193,6 @@ export default function HomeDE() {
                 Are you amongst our potential customers of data centers, production
                 companies or energy producers?
                 <br /><br />
-                <a
-                  target="_blank"
-                  href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
-                  rel="noreferrer"
-                >
-                  Calculate your return
-                </a>
               </div>
               <div className={styles.gridtext}>
                 <h4>
@@ -229,18 +214,12 @@ export default function HomeDE() {
                 energy storage asset ROIs. This leads to more profitable investments and helps
                 propel deployment of renewable energy sources.
                 <br /><br />
-                <a
-                  target="_blank"
-                  href="https://mzcjvj63xkj.typeform.com/to/EYpzpNPM"
-                  rel="noreferrer"
-                >
-                  Curious how we can help?
-                </a>
               </div>
             </div>
           </div>,
         }, {
           title: "Calculate your returns",
+          titleLink: "https://mzcjvj63xkj.typeform.com/to/EYpzpNPM",
           content: <div>
             Unsure what we can do for you?
             <a
