@@ -270,11 +270,21 @@ hr.red {
 }
 
 @media (max-width: 767px) {
+  .fix {
+    background-color: #fff;
+    height: 100%;
+  }
   .navbar, .navlogo {
     display: none !important;
   }
   .solutionImgIn {
     margin-bottom: 10px;
     width: 100%;
+  }
+  .product .text {
+    max-width: 100%;
+  }
+  .video {
+    display: none;
   }
 }
