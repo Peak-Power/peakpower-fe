@@ -30,7 +30,7 @@ export default function HomeDE() {
     const content = {
         lang: "de",
         description: "Maximising storage investment returns at scale",
-        slogan: <span>A DISTRIBUTED<br />ENERGY BALANCING<br />SYSTEM</span>,
+        slogan: <span>MAXIMISING STORAGE<br />INVESTMENT RETURNS<br />AT SCALE</span>,
         about: {
             title: "Über Peak Power",
             header: "Maximising storage investment returns. At grid scale.",
