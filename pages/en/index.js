@@ -288,26 +288,6 @@ export default function HomeEN() {
           </div>
         },
         {
-          title: "Charlotte Wegener",
-          image: charlotte,
-          content: <div>
-            <small>
-              <a target='_blank' rel="noreferrer"
-                href='https://www.linkedin.com/in/charlottewegener/'>
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  width="20px"
-                />
-              </a>
-            </small>
-            VP Operations
-            <br /><br />
-            International Business | SCM
-            6+ YRS O&M Renewables (E.ON | RWE)
-            5+ YRS Team lead O&M Systems & Cyber Security
-          </div>
-        },
-        {
           title: "Luis del Río Francos", image: luis,
           content: <div>
             <small>
